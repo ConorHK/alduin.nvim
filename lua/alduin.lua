@@ -111,7 +111,7 @@ local function get_groups()
 		ModeMsg                     = { link = "ModeMsg" },
 		Question                    = { fg = theme.orange },
 		WarningMsg                  = { fg = theme.magneta },
-		LineNr                      = { fg = "#444444", bg = "080808" },
+		LineNr                      = { fg = "#444444", bg = "#080808" },
 		SignColumn                  = { bg = theme.bg },
 		Folded                      = { fg = theme.green, bg = theme.bg },
 		FoldColumn                  = { link = "Folded" },
