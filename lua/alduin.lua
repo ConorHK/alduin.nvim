@@ -118,8 +118,8 @@ local function get_groups()
 		vCursor                     = { reverse = true },
 		iCursor                     = { link = "Cursor" },
 		lCursor                     = { link = "Cursor" },
-		Whitespace                  = { bg = "#585450" },
-		NonText                     = { bg = "#585450" },
+		Whitespace                  = { fg = "#585450" },
+		NonText                     = { fg = "#585450" },
 
 		-- Syntax
 		Delimiter                   = { link = "AlduinMagenta" },
