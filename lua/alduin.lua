@@ -238,7 +238,7 @@ local function get_groups()
 		["@attribute"]              = { link = "PreProc" },
 		["@field"]                  = { link = "Identifier" },
 		["@property"]               = { link = "Identifier" },
-		["@variable"]               = { fg = theme.fg, bg = theme.bg },
+		["@variable"]               = { fg = theme.blue, bg = theme.bg },
 		["@variable.builtin"]       = { link = "Special" },
 		["@constant"]               = { link = "Constant" },
 		["@constant.builtin"]       = { link = "Special" },
