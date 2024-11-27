@@ -89,7 +89,6 @@ local function get_groups()
 		ColorColumn                 = { link = "CursorLine" },
 		Conceal                     = { fg = theme.blue },
 		CursorLineNr                = { fg = theme.orange, bg = "#080808" },
-		NonText                     = { fg = theme.black_soft },
 		SpecialKey                  = { fg = theme.black_soft },
 		Visual                      = { bg = theme.bg, reverse = conf.invert_selection },
 		VisualNOS                   = { link = "Visual" },
@@ -119,6 +118,8 @@ local function get_groups()
 		vCursor                     = { reverse = true },
 		iCursor                     = { link = "Cursor" },
 		lCursor                     = { link = "Cursor" },
+		Whitespace                  = { bg = "#585450" },
+		NonText                     = { bg = "#585450" },
 
 		-- Syntax
 		Delimiter                   = { link = "AlduinMagenta" },
