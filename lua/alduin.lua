@@ -120,6 +120,7 @@ local function get_groups()
 		lCursor                     = { link = "Cursor" },
 		Whitespace                  = { fg = "#585450" },
 		NonText                     = { fg = "#585450" },
+		EndOfBuffer                 = { fg = "#101010", bg = "#101010" },
 
 		-- Syntax
 		Delimiter                   = { link = "AlduinMagenta" },
