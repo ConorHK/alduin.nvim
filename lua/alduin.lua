@@ -150,6 +150,12 @@ local function get_groups()
 		StorageClass                = { link = "AlduinRed" },
 		Structure                   = { link = "AlduinRed" },
 		Typedef                     = { link = "AlduinRed" },
+		
+		-- Diagnostics
+		DiagnosticSignError         = { fg = "red", bg = "#121212" },
+		DiagnosticSignWarning       = { fg = "orange", bg = "#121212" },
+		DiagnosticSignInfo          = { fg = "lightblue", bg = "#121212" },
+		DiagnosticSignHint          = { fg = "lightgrey", bg = "#121212" },
 
 		-- GitSigns
 		GitSignsAdd                 = { fg = theme.green, bg = "#080808" },
