@@ -239,6 +239,8 @@ local function get_groups()
 		["@field"]                  = { link = "Identifier" },
 		["@property"]               = { link = "Identifier" },
 		["@variable"]               = { fg = theme.blue, bg = theme.bg },
+		["@variable.member"]        = { fg = theme.white, bg = theme.bg },
+		["@variable.parameter"]     = { fg = theme.white, bg = theme.bg },
 		["@variable.builtin"]       = { link = "Special" },
 		["@constant"]               = { link = "Constant" },
 		["@constant.builtin"]       = { link = "Special" },
