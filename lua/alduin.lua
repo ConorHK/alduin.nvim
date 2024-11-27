@@ -98,9 +98,9 @@ local function get_groups()
 		CurSearch                   = { link = "IncSearch" },
 		QuickFixLine                = { fg = theme.magneta },
 		UnderLined                  = { fg = theme.cyan, underline = conf.underline },
-		StatusLine                  = { fg = theme.fg, bg = theme.bg },
+		StatusLine                  = { fg = theme.fg, bg = "#080808" },
 		StatusLineNC                = { fg = theme.fg, bg = theme.black_soft },
-		WinBar                      = { fg = theme.cyan, bg = theme.bg },
+		WinBar                      = { fg = theme.cyan, bg = "#080808" },
 		WinBarNC                    = { fg = theme.fg, bg = theme.black_soft },
 		WinSeparator                = { fg = theme.black_soft },
 		WildMenu                    = { fg = theme.black, bg = theme.red },
@@ -113,7 +113,7 @@ local function get_groups()
 		WarningMsg                  = { fg = theme.magneta },
 		LineNr                      = { fg = "#444444", bg = "#080808" },
 		SignColumn                  = { bg = "#080808" },
-		Folded                      = { fg = theme.green, bg = theme.bg },
+		Folded                      = { fg = theme.green, bg = "#080808" },
 		FoldColumn                  = { link = "Folded" },
 		Cursor                      = { reverse = false },
 		vCursor                     = { reverse = true },
@@ -151,9 +151,9 @@ local function get_groups()
 		Typedef                     = { link = "AlduinRed" },
 
 		-- GitSigns
-		GitSignsAdd                 = { link = "AlduinGreen" },
-		GitSignsChange              = { link = "AlduinBlue" },
-		GitSignsDelete              = { link = "AlduinMagenta" },
+		GitSignsAdd                 = { fg = theme.green, bg = "#080808" },
+		GitSignsChange              = { fg = theme.orange, bg = "#080808" },
+		GitSignsDelete              = { fg = theme.red, bg = "#080808" },
 
 		-- Telescope
 		TelescopeNormal             = { fg = theme.fg, bg = theme.bg },
