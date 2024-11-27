@@ -152,10 +152,10 @@ local function get_groups()
 		Typedef                     = { link = "AlduinRed" },
 		
 		-- Diagnostics
-		DiagnosticSignError         = { fg = "red", bg = "#121212" },
-		DiagnosticSignWarning       = { fg = "orange", bg = "#121212" },
-		DiagnosticSignInfo          = { fg = "lightblue", bg = "#121212" },
-		DiagnosticSignHint          = { fg = "lightgrey", bg = "#121212" },
+		DiagnosticSignError         = { fg = theme.red, bg = "#080808" },
+		DiagnosticSignWarning       = { fg = theme.orange, bg = "#080808" },
+		DiagnosticSignInfo          = { fg = theme.cyan, bg = "#080808" },
+		DiagnosticSignHint          = { fg = theme.white, bg = "#080808" },
 
 		-- GitSigns
 		GitSignsAdd                 = { fg = theme.green, bg = "#080808" },
