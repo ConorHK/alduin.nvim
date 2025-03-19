@@ -156,7 +156,7 @@ local function get_groups()
 		DiagnosticSignError         = { fg = "#FF0000", bg = "#080808" },
 		DiagnosticSignWarning       = { fg = "#FF4000", bg = "#080808" },
 		DiagnosticSignInfo          = { fg = "#00FFFF", bg = "#080808" },
-		DiagnosticSignHint          = { fg = "#000000", bg = "#080808" },
+		DiagnosticSignHint          = { fg = "#87afaf", bg = "#080808" },
 
 		-- GitSigns
 		GitSignsAdd                 = { fg = theme.green, bg = "#080808" },
