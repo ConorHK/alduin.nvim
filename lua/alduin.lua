@@ -88,7 +88,7 @@ local function get_groups()
 		MatchParen                  = { fg = theme.cyan },
 		ColorColumn                 = { link = "CursorLine" },
 		Conceal                     = { fg = theme.blue },
-		CursorLineNr                = { fg = theme.orange, bg = "#080808" },
+		CursorLineNr                = { fg = "#a2a2a2", bg = "#080808" },
 		SpecialKey                  = { fg = theme.black_soft },
 		Visual                      = { bg = theme.bg, reverse = conf.invert_selection },
 		VisualNOS                   = { link = "Visual" },
